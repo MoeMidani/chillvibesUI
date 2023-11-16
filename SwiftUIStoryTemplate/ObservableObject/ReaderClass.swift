@@ -14,23 +14,26 @@ import SwiftUI
 class ReaderInfo: ObservableObject {
     
     @Published var gender = ["Male", "Female", "Non-Binary"]
-        
-        @Published var characterName2: String = ""
-        @Published var characterAge2: String = ""
-    @Published var characherGender2 = 0
+    @Published var characterPronouns = ["they", "their", "theirs", "themself", "kid","them","they're"]
+    
+    @Published var characterName2: String = ""
+    @Published var characterAge2: String = ""
+    @Published var characterGender2 = 0 {
+        didSet {
+            updateCharacterPronouns()
+        }
+    }
+    
+    func updateCharacterPronouns() {
+        switch characterGender2 {
+        case 0:
+            characterPronouns = ["he", "his", "his", "himself", "boy", "him", "he's"]
+        case 1:
+            characterPronouns = ["she", "her", "hers", "herself", "girl", "her", "she's"]
+        case 2:
+            characterPronouns = ["they", "their", "theirs", "themself", "kid", "them", "they're"]
+        default:
+            print("If gender entry was invalid, the story defaults to neutral.")
+        }
+    }
 }
-
-
-//struct ReaderDemographics: View {
-//    
-//    @Binding var characterName: String
-//    @Binding var characterAge: String
-//    @Binding var characterGender: String
-//    
-//    
-//    var body: some View {
-//        Text("")
-//    }
-//}
-
-

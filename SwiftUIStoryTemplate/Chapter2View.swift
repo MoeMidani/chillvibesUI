@@ -51,8 +51,6 @@ struct Chapter2View: View {
 }
 #Preview {
     Chapter2View()
-        .environmentObject(ReaderInfo())
-
 }
 /*import Foundation
  struct CaveFeels{}
@@ -160,4 +158,3 @@ struct Chapter2View: View {
      }
  }
 */
-

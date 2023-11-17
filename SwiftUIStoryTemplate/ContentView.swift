@@ -6,6 +6,7 @@ struct ContentView: View {
     @EnvironmentObject var characterInfoViewModel: CharacterInfoViewModel
     var body: some View {
         TabView {
+            
             ReaderDetailView()
                 .tabItem {
                     Label("Chapter 1", systemImage: "0.circle")

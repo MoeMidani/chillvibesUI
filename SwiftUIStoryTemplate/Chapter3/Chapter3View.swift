@@ -185,15 +185,16 @@ struct Chapter3View: View {
                             printSlow(phrase:" \(characterName) followed the sound of the stream and successfully found \(characterPronouns[2]) way out of the \(characterLocation.name).")
                             
                             
-                            if isChapter4ButtonVisible {
-                                NavigationLink(destination: Chapter4View(), isActive: $isChapter4ButtonVisible) {
-                                    Circle()
-                                        .frame(width: 90, height: 80)
-                                        .background(Color.white)
-                                        .cornerRadius(25)
-                                }
-                            //    .hidden()
-                            }
+//                            if isChapter4ButtonVisible {
+//                                NavigationLink(destination: Chapter4View(), isActive: $isChapter4ButtonVisible) {
+//                                    Circle()
+//                                        .frame(width: 90, height: 80)
+//                                        .background(Color.white)
+//                                        .cornerRadius(25)
+//                                }
+//                            //    .hidden()
+//                            }
+                            
 
                             let finalText = """
                                        \(characterName) emerged from the \(characterLocation.name),
@@ -202,11 +203,13 @@ struct Chapter3View: View {
                                        for the world around \(characterPronouns[5]).
                                        """
                             
-                            withAnimation {isChapter4ButtonVisible = true}
+                            
+                            
                             DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
                                 self.printSlow(phrase: finalText)
 
                             }
+                            withAnimation {isChapter4ButtonVisible = true}
 
                             print(isChapter4ButtonVisible)
 
@@ -217,6 +220,7 @@ struct Chapter3View: View {
                     }
                 }
             }
+            
         }
     }
         

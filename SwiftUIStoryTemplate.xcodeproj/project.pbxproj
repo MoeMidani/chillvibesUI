@@ -16,6 +16,10 @@
 		5DE6F6822AFAE3EA004ABB4F /* Chapter3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */; };
 		5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */; };
 		5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */; };
+		62097B952B06D685003D7337 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62097B942B06D685003D7337 /* SwiftUIView.swift */; };
+		62097B972B07925B003D7337 /* SwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62097B962B07925B003D7337 /* SwiftUIView2.swift */; };
+		62097B992B07933A003D7337 /* SwiftUIView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62097B982B07933A003D7337 /* SwiftUIView3.swift */; };
+		62097B9B2B0794D9003D7337 /* SwiftUIView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62097B9A2B0794D9003D7337 /* SwiftUIView4.swift */; };
 		CAF4354F2B05785D00C168F4 /* ReaderClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF4354E2B05785D00C168F4 /* ReaderClass.swift */; };
 		CAF435512B0578F800C168F4 /* ReaderForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF435502B0578F800C168F4 /* ReaderForm.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +35,10 @@
 		5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
 		5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
 		5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5View.swift; sourceTree = "<group>"; };
+		62097B942B06D685003D7337 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		62097B962B07925B003D7337 /* SwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView2.swift; sourceTree = "<group>"; };
+		62097B982B07933A003D7337 /* SwiftUIView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView3.swift; sourceTree = "<group>"; };
+		62097B9A2B0794D9003D7337 /* SwiftUIView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView4.swift; sourceTree = "<group>"; };
 		CAF4354E2B05785D00C168F4 /* ReaderClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderClass.swift; sourceTree = "<group>"; };
 		CAF435502B0578F800C168F4 /* ReaderForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +107,10 @@
 			isa = PBXGroup;
 			children = (
 				5DE6F67F2AFAE3E6004ABB4F /* Chapter2View.swift */,
+				62097B942B06D685003D7337 /* SwiftUIView.swift */,
+				62097B962B07925B003D7337 /* SwiftUIView2.swift */,
+				62097B982B07933A003D7337 /* SwiftUIView3.swift */,
+				62097B9A2B0794D9003D7337 /* SwiftUIView4.swift */,
 			);
 			name = Chapter2;
 			sourceTree = "<group>";
@@ -208,8 +220,12 @@
 			files = (
 				5DE6F6822AFAE3EA004ABB4F /* Chapter3View.swift in Sources */,
 				5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */,
+				62097B992B07933A003D7337 /* SwiftUIView3.swift in Sources */,
+				62097B972B07925B003D7337 /* SwiftUIView2.swift in Sources */,
+				62097B9B2B0794D9003D7337 /* SwiftUIView4.swift in Sources */,
 				5DE6F6722AFADF05004ABB4F /* ContentView.swift in Sources */,
 				5DE6F6802AFAE3E6004ABB4F /* Chapter2View.swift in Sources */,
+				62097B952B06D685003D7337 /* SwiftUIView.swift in Sources */,
 				5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */,
 				CAF435512B0578F800C168F4 /* ReaderForm.swift in Sources */,
 				CAF4354F2B05785D00C168F4 /* ReaderClass.swift in Sources */,

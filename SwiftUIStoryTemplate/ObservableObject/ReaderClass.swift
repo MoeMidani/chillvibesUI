@@ -13,6 +13,16 @@ import SwiftUI
 
 class ReaderInfo: ObservableObject {
     
+    @Published var caveWalls = ["wet", "dry"]
+    @Published var senseTouch = "touch"
+    @Published var senseSound = "sound"
+    @Published var wetAndRight = true
+    @Published var wetAndLeft = false
+    @Published var dryAndRight = false
+    @Published var dryAndLeft = false
+    @Published var userFavSong = "2nd clue"
+ 
+    
     @Published var gender = ["Male", "Female", "Non-Binary"]
     @Published var characterPronouns = ["they", "their", "theirs", "themself", "kid","them","they're"]
     

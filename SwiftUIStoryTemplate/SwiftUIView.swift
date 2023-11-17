@@ -1,58 +1,34 @@
+//
+//  SwiftUIView.swift
+//  SwiftUIStoryTemplate
+//
+//  Created by Elancio Zeigler on 11/16/23.
+//
+
 import SwiftUI
 
-struct Chapter2View: View {
-    
-    @State var isInCave = false
-    
-    func InsideCave(){
-        isInCave.toggle()
-    }
-    
+struct SwiftUIView: View {
     var body: some View {
-        
-        VStack{
-            Toggle("Enter Cave", isOn: $isInCave)
-            
-            
-            
-            NavigationStack{
-                
-                
-                
-                
-                
-                
-                
-                ZStack {
-                    Color.black
-                    Image("forestCave1").resizable().scaledToFit()
-                   /* Text("Sleepy Cave").bold().font(.custom("American TypeWriter", size: 34)).foregroundColor(.white)
-                    */
+        ZStack{
+            Color.black
+            Image("cave4").resizable().scaledToFit()
+            ScrollView{
+                VStack{
+                    Spacer(minLength: 630)
                     
-                    Spacer(minLength: 24)
-                    ScrollView{
-                        VStack{
-                            Spacer(minLength: 630)
-                            Text("He makes his way to the entrance of Sleepy Cave.").multilineTextAlignment(.trailing).bold().font(.custom("American Typewriter", size: 19))
-                                .foregroundStyle(.white)
-                        }
-                    }
                     
+                    Text("It is extremely hollow inside and the cave is pitch black. He discovers his flashlight has broken, and he would have to rely on his sense of touch and sound  to get to the clue in the cave tunnels. The cave is full of challenges and surprises and it’s up to him to find the best route to get to his grandpa’s clue.").multilineTextAlignment(.trailing).bold().font(.custom("American Typewriter", size: 19))
+                        .foregroundStyle(.white)
                 }
-                /* Text("\n\(characterName2) makes \(characterPronouns[1]) way to the entrance of Sleepy Cave. It is extremely hollow inside and the cave is pitch black. \(characterPronouns[0]) discovers \(characterPronouns[1]) flashlight has broken, and \(characterPronouns[0]) would have to rely on \(characterPronouns[1]) sense of \(senseTouch) and \(senseSound)  to get to the \(userFavSong) in the cave tunnels. The cave is full of challenges and surprises and it’s up to \(characterPronouns[5]) to find the best route to get to his grandpa’s clue.")
-                 */
+                
+                
             }
-            
-            
-        }
-        
+        }.ignoresSafeArea();
     }
-    
 }
-#Preview {
-    Chapter2View()
-        .environmentObject(ReaderInfo())
 
+#Preview {
+    SwiftUIView()
 }
 /*import Foundation
  struct CaveFeels{}

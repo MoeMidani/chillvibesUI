@@ -16,20 +16,21 @@ struct Chapter1View: View {
                 .padding(.top)
             
             VStack {
-                HStack {
+              //  HStack {
                     ScrollView {
                         Text("\nOnce upon a time there was a little \(characterInfoViewModel.characterPronouns[4]) named \(characterInfoViewModel.characterName). \(characterInfoViewModel.characterPronouns[0].capitalized) lived with \(characterInfoViewModel.characterPronouns[1]) grandpa George and every weekend they would take an adventure through the forest. \(characterInfoViewModel.characterName) loved to find things and explore the forest with grandpa George. \(characterInfoViewModel.characterName)'s favorite thing to do was to look for clues and find different animals. On every adventure \(characterInfoViewModel.characterName)'s grandpa taught \(characterInfoViewModel.characterPronouns[5]) how to use \(characterInfoViewModel.characterPronouns[1]) eyes, ears, nose and hands to make new discoveries. \(characterInfoViewModel.characterName) would soon be a year older, and grandpa George wants to test \(characterInfoViewModel.characterPronouns[1]) knowledge, so he put together a plan. Grandpa George tells \(characterInfoViewModel.characterPronouns[5]) that if \(characterInfoViewModel.characterPronouns[0]) can get through the forest by \(characterInfoViewModel.characterPronouns[3]), \(characterInfoViewModel.characterPronouns[0]) will receive a prize. \(characterInfoViewModel.characterName) needs to use all \(characterInfoViewModel.characterPronouns[1]) senses to get through the forest alone. \(characterInfoViewModel.characterName) is sure \(characterInfoViewModel.characterPronouns[0]) can do it, but \(characterInfoViewModel.characterPronouns[6]) still a little afraid.\(characterInfoViewModel.characterPronouns[0].capitalized) needs your help! With \(characterInfoViewModel.characterPronouns[1]) tools on their back you you by there side, \(characterInfoViewModel.characterPronouns[6]) sure to pass grandpa's test.")
                             .multilineTextAlignment(.center)
+                        HStack{
                         
                         // Display the decision buttons
                         if decisionResult == nil {
                             Button(action: {
                                 handleDecision("1", newImage: "rrr")
                             }) {
-                                Text("Go down the river path")
+                                Text("Walk around the river path")
                                     .foregroundColor(.white)
                                     .padding()
-                                    .background(Color.blue)
+                                    .background(Color("Cinn"))
                                     .cornerRadius(8)
                             }
                             .padding(.vertical, 5)
@@ -37,10 +38,10 @@ struct Chapter1View: View {
                             Button(action: {
                                 handleDecision("2", newImage: "oldShack2")
                             }) {
-                                Text("Explore the abandoned shack")
+                                Text("See the abandoned shack")
                                     .foregroundColor(.white)
                                     .padding()
-                                    .background(Color.blue)
+                                    .background(Color("Yelloww"))
                                     .cornerRadius(8)
                             }
                             .padding(.vertical, 5)
@@ -49,8 +50,9 @@ struct Chapter1View: View {
                             Text(decisionResult ?? "")
                                 .padding()
                         }
+                        }
                     }
-                }
+                //}
             }
             .padding(.horizontal, 15)
         }

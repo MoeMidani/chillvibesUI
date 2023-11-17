@@ -71,7 +71,7 @@ struct ReaderDetailView: View {
                     }
                     .padding()
                 }
-                .padding(.bottom, 10)
+                .padding(.bottom, 15)
             }
             .onAppear {
                 // Load character info when the view appears
@@ -84,9 +84,8 @@ struct ReaderDetailView: View {
         }
     }
 
-    struct ReaderDetailView_Previews: PreviewProvider {
-        static var previews: some View {
+#Preview {
             ReaderDetailView()
                 .environmentObject(CharacterInfoViewModel())
         }
-    }
+    

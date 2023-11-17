@@ -1,38 +1,29 @@
 import SwiftUI
 
 struct Chapter1View: View {
+    
+    //@ObservedObject var characterInfoViewModel: CharacterInfoViewModel
+    
+    @EnvironmentObject var characterInfoViewModel: CharacterInfoViewModel
+    
+    
     var body: some View {
         
-       
-            
-
-    
-            
-            VStack {
         
-                Image("forestPath1")
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                   // .padding(.top, -90)
-                    
-                VStack{
-                    ScrollView{
-                        
-            
-                    }
-                    
-                  
-                }.padding(.bottom, 20)
-            }
-           // .padding(.bottom, 100)
-                
-                   
-             //.padding(.bottom, 220)
-            
+        
+        
+        
+        
+        VStack {
+         
+            Text("Hey \(characterInfoViewModel.characterName) how \(characterInfoViewModel.characterPronouns[3])")
+        }
     }
 }
 
-#Preview {
-    Chapter1View()
-       
+struct Chapter1View_Previews: PreviewProvider {
+    static var previews: some View {
+        Chapter1View()
+            .environmentObject(CharacterInfoViewModel())
+    }
 }

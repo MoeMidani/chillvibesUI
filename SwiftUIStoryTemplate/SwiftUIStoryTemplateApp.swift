@@ -10,12 +10,11 @@ import SwiftUI
 @main
 struct SwiftUIStoryTemplateApp: App {
     
-    @StateObject var readerInfo = ReaderInfo()
-    
+  
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(readerInfo)
+            ContentView().environmentObject(CharacterInfoViewModel())
+               // .environmentObject(readerInfo)
         }
     }
 }

@@ -16,8 +16,8 @@
 		5DE6F6822AFAE3EA004ABB4F /* Chapter3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */; };
 		5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */; };
 		5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */; };
-		CAF4354F2B05785D00C168F4 /* ReaderClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF4354E2B05785D00C168F4 /* ReaderClass.swift */; };
-		CAF435512B0578F800C168F4 /* ReaderForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF435502B0578F800C168F4 /* ReaderForm.swift */; };
+		CA6550972B07005200249779 /* CharacterInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6550962B07005200249779 /* CharacterInfoModel.swift */; };
+		CA6550992B07008B00249779 /* ReaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6550982B07008B00249779 /* ReaderDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 		5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
 		5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
 		5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5View.swift; sourceTree = "<group>"; };
-		CAF4354E2B05785D00C168F4 /* ReaderClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderClass.swift; sourceTree = "<group>"; };
-		CAF435502B0578F800C168F4 /* ReaderForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderForm.swift; sourceTree = "<group>"; };
+		CA6550962B07005200249779 /* CharacterInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterInfoModel.swift; sourceTree = "<group>"; };
+		CA6550982B07008B00249779 /* ReaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,8 @@
 			children = (
 				5DE6F66F2AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift */,
 				5DE6F6712AFADF05004ABB4F /* ContentView.swift */,
-				CAF4354D2B0577E200C168F4 /* ObservableObject */,
+				CA6550962B07005200249779 /* CharacterInfoModel.swift */,
+				CA6550982B07008B00249779 /* ReaderDetailView.swift */,
 				5DE6F6872AFAE47A004ABB4F /* Chapter1 */,
 				5DE6F6882AFAE482004ABB4F /* Chapter2 */,
 				5DE6F6892AFAE48E004ABB4F /* Chapter3 */,
@@ -125,15 +126,6 @@
 				5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */,
 			);
 			path = Chapter5;
-			sourceTree = "<group>";
-		};
-		CAF4354D2B0577E200C168F4 /* ObservableObject */ = {
-			isa = PBXGroup;
-			children = (
-				CAF4354E2B05785D00C168F4 /* ReaderClass.swift */,
-				CAF435502B0578F800C168F4 /* ReaderForm.swift */,
-			);
-			path = ObservableObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,9 +202,9 @@
 				5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */,
 				5DE6F6722AFADF05004ABB4F /* ContentView.swift in Sources */,
 				5DE6F6802AFAE3E6004ABB4F /* Chapter2View.swift in Sources */,
+				CA6550992B07008B00249779 /* ReaderDetailView.swift in Sources */,
 				5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */,
-				CAF435512B0578F800C168F4 /* ReaderForm.swift in Sources */,
-				CAF4354F2B05785D00C168F4 /* ReaderClass.swift in Sources */,
+				CA6550972B07005200249779 /* CharacterInfoModel.swift in Sources */,
 				5DE6F67E2AFAE3DF004ABB4F /* Chapter1View.swift in Sources */,
 				5DE6F6702AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift in Sources */,
 			);

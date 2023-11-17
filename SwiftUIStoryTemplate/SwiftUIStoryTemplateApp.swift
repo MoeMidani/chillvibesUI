@@ -7,11 +7,16 @@
 
 import SwiftUI
 
+
+
 @main
 struct SwiftUIStoryTemplateApp: App {
+    
+  
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(CharacterInfoViewModel())
+               // .environmentObject(readerInfo)
         }
     }
 }

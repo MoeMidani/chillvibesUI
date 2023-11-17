@@ -2,8 +2,14 @@ import SwiftUI
 
 // Use the relevant folders and swift files to code your chapter of the story. Keep ContentView as-is, unless you want a different type of navigation in your story.
 struct ContentView: View {
+    
+    @EnvironmentObject var characterInfoViewModel: CharacterInfoViewModel
     var body: some View {
         TabView {
+            ReaderDetailView()
+                .tabItem {
+                    Label("Chapter 1", systemImage: "0.circle")
+                }
             Chapter1View()
                 .tabItem {
                     Label("Chapter 1", systemImage: "1.circle")
@@ -20,14 +26,11 @@ struct ContentView: View {
                 .tabItem {
                     Label("Chapter 4", systemImage: "4.circle")
                 }
-            Chapter5View()
-                .tabItem {
-                    Label("Chapter 5", systemImage: "5.circle")
-                }
+            
         }
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView().environmentObject(CharacterInfoViewModel())
 }

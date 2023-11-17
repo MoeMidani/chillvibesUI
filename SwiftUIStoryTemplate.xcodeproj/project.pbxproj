@@ -16,6 +16,7 @@
 		5DE6F6822AFAE3EA004ABB4F /* Chapter3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */; };
 		5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */; };
 		5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */; };
+		F0A20BEE2B067F3200433BA2 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A20BED2B067F3200433BA2 /* SheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
 		5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
 		5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5View.swift; sourceTree = "<group>"; };
+		F0A20BED2B067F3200433BA2 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		5DE6F6632AFADF05004ABB4F = {
 			isa = PBXGroup;
 			children = (
+				F0A20BED2B067F3200433BA2 /* SheetView.swift */,
 				5DE6F66E2AFADF05004ABB4F /* SwiftUIStoryTemplate */,
 				5DE6F66D2AFADF05004ABB4F /* Products */,
 			);
@@ -198,6 +201,7 @@
 				5DE6F6802AFAE3E6004ABB4F /* Chapter2View.swift in Sources */,
 				5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */,
 				5DE6F67E2AFAE3DF004ABB4F /* Chapter1View.swift in Sources */,
+				F0A20BEE2B067F3200433BA2 /* SheetView.swift in Sources */,
 				5DE6F6702AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

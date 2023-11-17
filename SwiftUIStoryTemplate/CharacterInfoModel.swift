@@ -7,6 +7,10 @@
 
 import Foundation
 
+
+
+import Foundation
+
 class CharacterInfoViewModel: ObservableObject {
     @Published var characterName: String {
         didSet {
@@ -60,35 +64,3 @@ class CharacterInfoViewModel: ObservableObject {
         }
     }
 }
-
-//class CharacterInfoViewModel: ObservableObject {
-//    @Published var characterName: String {
-//        didSet {
-//            saveCharacterInfo()
-//        }
-//    }
-//    @Published var characterAge: Int {
-//        didSet {
-//            saveCharacterInfo()
-//        }
-//    }
-//    @Published var selectedGenderIndex: Int {
-//        didSet {
-//            saveCharacterInfo()
-//        }
-//    }
-//
-//    let characterGenders = ["Male", "Female", "Non-Binary"] // Add this line
-//
-//    init() {
-//        self.characterName = UserDefaults.standard.string(forKey: "characterName") ?? ""
-//        self.characterAge = UserDefaults.standard.integer(forKey: "characterAge")
-//        self.selectedGenderIndex = UserDefaults.standard.integer(forKey: "selectedGenderIndex")
-//    }
-//
-//    private func saveCharacterInfo() {
-//        UserDefaults.standard.set(characterName, forKey: "characterName")
-//        UserDefaults.standard.set(characterAge, forKey: "characterAge")
-//        UserDefaults.standard.set(selectedGenderIndex, forKey: "selectedGenderIndex")
-//    }
-//}

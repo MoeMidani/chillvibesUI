@@ -18,6 +18,7 @@
 		5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */; };
 		CA6550972B07005200249779 /* CharacterInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6550962B07005200249779 /* CharacterInfoModel.swift */; };
 		CA6550992B07008B00249779 /* ReaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6550982B07008B00249779 /* ReaderDetailView.swift */; };
+		CA8BEB552B074F9E007998FC /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8BEB542B074F9E007998FC /* QuizView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5View.swift; sourceTree = "<group>"; };
 		CA6550962B07005200249779 /* CharacterInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterInfoModel.swift; sourceTree = "<group>"; };
 		CA6550982B07008B00249779 /* ReaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderDetailView.swift; sourceTree = "<group>"; };
+		CA8BEB542B074F9E007998FC /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				5DE6F6712AFADF05004ABB4F /* ContentView.swift */,
 				CA6550962B07005200249779 /* CharacterInfoModel.swift */,
 				CA6550982B07008B00249779 /* ReaderDetailView.swift */,
+				CA8BEB542B074F9E007998FC /* QuizView.swift */,
 				5DE6F6872AFAE47A004ABB4F /* Chapter1 */,
 				5DE6F6882AFAE482004ABB4F /* Chapter2 */,
 				5DE6F6892AFAE48E004ABB4F /* Chapter3 */,
@@ -205,6 +208,7 @@
 				CA6550992B07008B00249779 /* ReaderDetailView.swift in Sources */,
 				5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */,
 				CA6550972B07005200249779 /* CharacterInfoModel.swift in Sources */,
+				CA8BEB552B074F9E007998FC /* QuizView.swift in Sources */,
 				5DE6F67E2AFAE3DF004ABB4F /* Chapter1View.swift in Sources */,
 				5DE6F6702AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift in Sources */,
 			);
